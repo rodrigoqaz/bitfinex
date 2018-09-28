@@ -2,7 +2,7 @@ setwd("c:/R")
 require(RODBC)
 source("functions.R")
 
-con <- odbcDriverConnect("Driver={SQL Server};Server=cryptobd.database.windows.net;Uid=cryptoadmin;Pwd=@dafn0as99AS;database=bd-crypto")
+con <- odbcDriverConnect("Driver={SQL Server};Server=cryptobd.database.windows.net;Uid=cryptoadmin;Pwd=password;database=data_base")
 
 tryCatch(
 {
